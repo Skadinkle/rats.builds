@@ -1,4 +1,5 @@
-# UNBv2: The Remake
-This is a remade version of UNBv2 when I still owned it.
-<br><br>
-Now it is someone else's burden to bare.
+# :school_satchel: UnB Version 2
+This was an attempt at porting UnBV1 to the file-system in order to make it more streamlined.<br>
+Got canceled pretty early on. <sub>(+ It looked like shit, _so...)_</sub>
+
+Not much.
