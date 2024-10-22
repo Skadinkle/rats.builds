@@ -1,4 +1,3 @@
-# Rv1: A Site
-This is the previous build of RATS before cancelation.
-<br><br>
-The newer one way different, so I just made them seperate versions.
+# :rat: RATS Version 1
+The first semi-complete build of RATS.<br>
+Canceled later in development, but was repurposed for version 2.
