@@ -1,7 +1,5 @@
-# rv2.0.1: 02/01/24
-Just download the file called 'export.html'.<br>
-It's the only one you need to run it.<br><br>
-<sub>yee</sub><br><br>
+# :rat: RATS Version 2.0.1 _(02/01/24)_
+Definitely getting somewhere.<br>
 ```
                   TSRA
                RATSRAT
