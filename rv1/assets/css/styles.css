@@ -1,21 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
 
 	/* Why are you even looking in here? */
 
 	/* Main Info */
 * {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
 }
 *.hehe {
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: -moz-crisp-edges;
-	image-rendering: -o-crisp-edges;
 	image-rendering: pixelated;
-	filter: sepia() brightness(0.5) hue-rotate(-45deg) contrast(50);
+	filter: sepia() brightness(.5) hue-rotate(-45deg) contrast(50);
 	transform: scale(-100%);
 }
 
@@ -52,7 +49,7 @@ header .rats-logo {
 	letter-spacing: 2px;
 	padding: 6px 15px;
 	border-radius: 0px;
-	transition: 0.1s;
+	transition: .1s;
 }
 header .rats-logo:hover {
 	background: #ffffff;
@@ -75,17 +72,17 @@ header ul li a {
 	padding: 6px 15px;
 	color: #ffffff;
 	border-radius: 20px;
-	transition: 0.1s;
+	transition: .1s;
 	border-radius: 20px;
 }
 header ul li a:hover, header ul li a.active {
-	transition: 0.1s;
+	transition: .1s;
 	background: #ffffff;
 	border-radius: 20px;
 	color: #040426;
 }
 header ul li a.active {
-	transition: 0.1s;
+	transition: .1s;
 	text-decoration: underline;
 }
 
@@ -101,7 +98,7 @@ section {
 	overflow: hidden;
 }
 section::before {
-	content: '';
+	content: "";
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -112,16 +109,12 @@ section::before {
 
 	/* Section - Background */
 section img {
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: -moz-crisp-edges;
-	image-rendering: -o-crisp-edges;
 	image-rendering: pixelated;
-	-ms-interpolation-mode: nearest-neighbor;
 	position: absolute;
 	top: 0;
 	left: 0;
 	pointer-events: none;
-	filter: saturate(0.5) hue-rotate(10deg);
+	filter: saturate(.5) hue-rotate(10deg);
 }
 section img#sky, section img#ground {
 	width: 100%;
@@ -129,7 +122,7 @@ section img#sky, section img#ground {
 	object-fit: cover;
 }
 section img#sky {
-	opacity: 0.2;
+	opacity: .2;
 }
 section img#ground {
 	z-index: 8;
@@ -149,7 +142,7 @@ section img#title {
 	font-size: 7.5vw;
 	z-index: 9;
 	pointer-events: none;
-	text-shadow: 0px 0px 10px #040426;
+	text-shadow: 0 0 10px #040426;
 }
 #text-tutorial {
 	color: #2b1055;
@@ -176,11 +169,11 @@ section img#title {
 	border-radius: 40px;
 	background: #ffffff;
 	color: #2b1055;
-	font-size: 1,5em;
+	font-size: 1.5em;
 	z-index: 9;
 	transform: translateY(100px);
 	transition: .3s;
-	cursor:pointer;
+	cursor: pointer;
 }
 #btn:hover {
 	text-decoration: underline;
@@ -190,24 +183,20 @@ section img#title {
 
 	/* Div - Sec */
 .sec img#iceberg {
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: -moz-crisp-edges;
-	image-rendering: -o-crisp-edges;
 	image-rendering: pixelated;
-	-ms-interpolation-mode: nearest-neighbor;
 	position: absolute;
-	padding: 0px;
+	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	pointer-events: none;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	opacity: 0.2;
+	opacity: .2;
 }
 
 .sec {
@@ -242,23 +231,20 @@ section img#title {
 
 	/* Image - Squish */
 img.squish {
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: -moz-crisp-edges;
-	image-rendering: -o-crisp-edges;
 	image-rendering: pixelated;
-	filter: saturate(0.5);
+	filter: saturate(.5);
 	opacity: 50%;
 	cursor: grab;
-	transition: transform 0.2s;
+	transition: transform .2s;
 }
 img.squish:hover {
-	transform: scale(1.05, 0.95);
-	opacity: 55%;
+	transform: scale(1.05, .95);
+	opacity: .55;
 }
 img.squish:active {
 	cursor: grabbing;
-	transform: scale(1.1, 0.9);
-	opacity: 60%;
+	transform: scale(1.1, .9);
+	opacity: .6;
 }
 .squish-subtitle {
 	font-size: 10px;
@@ -328,14 +314,14 @@ img.squish:active {
 	align-items: center;
 	text-decoration:underline;
 	font-size: 40px;
-	border: 0px;
+	border: 0;
 	padding-left: 5px;
 	padding-right: 5px;
-	transition: ease 0.1s;
+	transition: ease .1s;
 }
 .button-newtab:hover {
 	color: #ffffff;
-	opacity: 0.8;
+	opacity: .8;
 }
 .button-description {
 	font-size: 1.3em;
@@ -362,23 +348,23 @@ img.squish:active {
 	width: 33%;
 }
 .image-column img, .image-column svg {
-	transition:transform 0.2s;
+	transition: transform .2s;
 	width: 98%;
 	height: 98%;
 }
 .community-column img {
-	transition:transform 0.2s;
+	transition: transform .2s;
 	width: 95%;
 	height: 400px;
 }
 .three-column img {
-	transition:transform 0.2s;
+	transition: transform .2s;
 	width: 100%;
 	height: 100%;
 }
 .image-column img#icon:hover, .image-column svg#icon:hover, .community-column img#icon:hover, .three-column img#icon:hover {
-	transform: scale(0.9) rotate(5deg);
-	opacity: 0.8;
+	transform: scale(.9) rotate(5deg);
+	opacity: .8;
 }
 .image-row::after {
 	content: "";
@@ -437,14 +423,14 @@ p.construction {
 }
 #error .errorimage {
 	height: 80vh;
-	transition: transform 0.2s;
+	transition: transform .2s;
 }
 #error .errorimage:hover {
-	transform: scale(0.9);
-	opacity: 0.9;
+	transform: scale(.9);
+	opacity: .9;
 }
 #error .errorimage:active {
-	transform: scaleY(0.85);
+	transform: scaleY(.85);
 }
 
 #carrier {
@@ -477,11 +463,11 @@ p.construction {
 	height: 100%;
 	top: 0;
 	left: 0;
-	bottom: 0%;
-	right: 0%;
+	bottom: 0;
+	right: 0;
 	z-index: 10001;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
 	border: none;
 }
@@ -495,7 +481,7 @@ p.construction {
 	padding: 6px 15px;
 	color: #ffffff;
 	border-radius: 20px;
-	transition: 0.1s;
+	transition: .1s;
 	background-color: #2b1055;
 }
 .fullscreen-button:hover {
